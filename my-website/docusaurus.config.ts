@@ -112,8 +112,8 @@ const config: Config = {
               to: '/docs/intro',
             },
             {
-              label: 'Module 1: ROS 2 Foundation',
-              to: '/docs/module1/overview',
+              label: 'Glossary',
+              to: '/docs/glossary',
             },
           ],
         },
@@ -149,7 +149,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['python', 'bash', 'yaml', 'xml'], // Support for code examples
+      additionalLanguages: ['python', 'bash', 'yaml'], // Support for code examples
     },
   } satisfies Preset.ThemeConfig,
 };

@@ -35,8 +35,8 @@
 - [X] T006 Create GitHub Actions workflow: my-website/.github/workflows/deploy.yml (build on push to main, deploy to gh-pages)
 - [X] T007 [P] Configure sidebars.js with 5 module categories (ROS 2 Foundation, Digital Twin, AI Perception, VLA, Capstone)
 - [X] T008 [P] Update docusaurus.config.js metadata (title: "Physical AI & Humanoid Robotics Hackathon Guide", tagline, organizationName, projectName)
-- [ ] T009 Test local build: `cd my-website && npm start` (verify localhost:3000 loads)
-- [ ] T010 Test production build: `npm run build` (verify build/ directory generated with 0 errors)
+- [X] T009 Test local build: `cd my-website && npm start` (verify localhost:3000 loads)
+- [X] T010 Test production build: `npm run build` (verify build/ directory generated with 0 errors)
 
 **Checkpoint**: Docusaurus project initialized, localhost preview working, GitHub Actions ready for deployment
 
@@ -48,16 +48,16 @@
 
 **⚠️ CRITICAL**: No module-specific chapter writing can begin until this phase is complete.
 
-- [ ] T011 Create glossary: my-website/docs/glossary.md (structure: alphabetically sorted terms with definitions)
-- [ ] T012 [P] Add 10 foundational glossary terms: URDF, ROS 2, IMU, mAP, Sim-to-Real, VLA, Gazebo, Isaac Sim, Jetson, RViz
-- [ ] T013 Create notation guide: my-website/docs/notation.md (mathematical symbols: q for joint angles, T for transforms, J for Jacobian)
-- [ ] T014 Create references file: my-website/docs/references.md (APA 7th edition template, alphabetically sorted)
-- [ ] T015 [P] Add 15 foundational references: ROS 2 Humble docs, Isaac Sim docs, Gazebo docs, Unity Robotics Hub, 5 sim-to-real papers (Peng 2018, Tobin 2017, Sadeghi 2017, Muratore 2021, Akkaya 2019), Siciliano textbook, Lynch textbook, Jetson docs, RealSense docs, Unitree Go2
-- [ ] T016 Create chapter template: specs/001-hackathon-guide/contracts/chapter-template.md (6 sections: Learning Objectives, Prerequisites, Content, Summary, Exercises, References)
-- [ ] T017 Create examples directory structure: my-website/examples/ with subdirectories module1/ through module5/
-- [ ] T018 [P] Create static image directories: my-website/static/img/module1/ through my-website/static/img/module5/
-- [ ] T019 Create homepage: my-website/src/pages/index.js (custom landing page with course overview, 5 module cards, hardware requirements)
-- [ ] T020 Validate foundational content: Run `npm run build` and verify glossary, notation, references pages render correctly
+- [X] T011 Create glossary: my-website/docs/glossary.md (structure: alphabetically sorted terms with definitions)
+- [X] T012 [P] Add 10 foundational glossary terms: URDF, ROS 2, IMU, mAP, Sim-to-Real, VLA, Gazebo, Isaac Sim, Jetson, RViz
+- [X] T013 Create notation guide: my-website/docs/notation.md (mathematical symbols: q for joint angles, T for transforms, J for Jacobian)
+- [X] T014 Create references file: my-website/docs/references.md (APA 7th edition template, alphabetically sorted)
+- [X] T015 [P] Add 15 foundational references: ROS 2 Humble docs, Isaac Sim docs, Gazebo docs, Unity Robotics Hub, 5 sim-to-real papers (Peng 2018, Tobin 2017, Sadeghi 2017, Muratore 2021, Akkaya 2019), Siciliano textbook, Lynch textbook, Jetson docs, RealSense docs, Unitree Go2
+- [X] T016 Create chapter template: specs/001-hackathon-guide/contracts/chapter-template.md (6 sections: Learning Objectives, Prerequisites, Content, Summary, Exercises, References)
+- [X] T017 Create examples directory structure: my-website/examples/ with subdirectories module1/ through module5/
+- [X] T018 [P] Create static image directories: my-website/static/img/module1/ through my-website/static/img/module5/
+- [X] T019 Create homepage: my-website/src/pages/index.js (custom landing page with course overview, 5 module cards, hardware requirements)
+- [X] T020 Validate foundational content: Run `npm run build` and verify glossary, notation, references pages render correctly
 
 **Checkpoint**: Foundation ready - module-specific chapter writing can now begin in parallel
 
