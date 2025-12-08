@@ -18,7 +18,7 @@ const config: Config = {
   url: 'https://syed-obaid.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-robotics-guide/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   organizationName: 'Syed-Obaid', // GitHub org/user name
@@ -126,11 +126,11 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/physical-ai-robotics-guide/docs/',
+              to: '/docs/',
             },
             {
               label: 'Glossary',
-              to: '/physical-ai-robotics-guide/docs/glossary',
+              to: '/docs/glossary',
             },
           ],
         },
