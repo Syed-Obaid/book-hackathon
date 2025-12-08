@@ -32,6 +32,16 @@ Build system for ROS 2 workspaces that compiles packages in dependency order and
 
 ---
 
+## D
+
+### Domain Randomization
+
+Sim-to-real transfer technique that randomizes physics parameters (mass, friction, sensor noise) during training to make policies robust to model uncertainties. Reduces performance gap when deploying from simulation to real hardware.
+
+**Related:** Sim-to-Real, Reinforcement Learning, Transfer Learning
+
+---
+
 ## G
 
 ### Gazebo
@@ -49,6 +59,12 @@ Open-source 3D robotics simulator that provides realistic physics simulation (gr
 Sensor that measures acceleration and angular velocity using accelerometers and gyroscopes. Common in robotics for estimating robot orientation and detecting motion. Subject to drift over time requiring calibration or sensor fusion.
 
 **Related:** Sensor Simulation, Sim-to-Real Gap
+
+### Inverse Kinematics (IK)
+
+Computational problem of determining joint angles required to position a robot's end-effector at a desired pose (position + orientation). Solvers include analytical methods for simple kinematic chains and numerical methods (Jacobian-based, TRAC-IK) for complex manipulators.
+
+**Related:** Forward Kinematics, MoveIt, Jacobian, End-Effector
 
 ### Isaac Sim
 
@@ -91,6 +107,12 @@ Rigid body component in a URDF robot model representing a physical part (e.g., a
 ---
 
 ## M
+
+### MoveIt
+
+Motion planning framework for ROS 2 that provides inverse kinematics, collision checking, and trajectory optimization for robotic manipulators. Includes integration with Gazebo and RViz for simulation and visualization.
+
+**Related:** Motion Planning, Inverse Kinematics, ROS 2
 
 ### mAP (Mean Average Precision)
 
@@ -150,6 +172,12 @@ ROS 2 Python client library providing Pythonic APIs for creating nodes, publishe
 
 ## S
 
+### SDF (Simulation Description Format)
+
+XML-based format used by Gazebo to define complete simulation environments including worlds, models, physics properties, and sensors. More comprehensive than URDF which focuses only on robot structure.
+
+**Related:** Gazebo, URDF, Simulation
+
 ### Service
 
 Synchronous request-reply ROS 2 communication pattern for infrequent operations requiring acknowledgment (e.g., "set parameter", "compute IK"). Client sends request and blocks until server responds. Service definitions (`.srv` files) specify request and response message types. Typically ~10ms latency.
@@ -203,6 +231,16 @@ XML-based format for defining robot kinematics, geometry, and visual appearance.
 Multi-modal AI pipeline that processes natural language commands and visual input to generate robot action sequences. Combines speech recognition (ASR), large language models (LLMs) for intent parsing, and action planning for embodied AI control.
 
 **Related:** LLM, Embodied AI, Natural Language Processing, Action Planning
+
+---
+
+## Y
+
+### YOLO (You Only Look Once)
+
+Real-time object detection deep learning model that processes images in a single forward pass. YOLOv8 is commonly used in robotics for detecting objects, people, and obstacles at 30+ FPS for vision-based manipulation and navigation.
+
+**Related:** Computer Vision, Object Detection, Perception
 
 ---
 

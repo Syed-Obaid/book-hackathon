@@ -125,46 +125,46 @@
 
 ### Module 2 Outline and Structure
 
-- [ ] T050 [US2] Create module outline: specs/001-hackathon-guide/contracts/module2-outline.md (6 chapters: Overview, Gazebo Setup, Physics Simulation, Unity Integration, Sensor Simulation, Exercises)
-- [ ] T051 [US2] Create module directory: my-website/docs/module2/ with _category_.json (label: "Module 2: Digital Twin Simulation", position: 2)
+- [X] T050 [US2] Create module outline: specs/001-hackathon-guide/contracts/module2-outline.md (6 chapters: Overview, Gazebo Setup, Physics Simulation, Unity Integration, Sensor Simulation, Exercises)
+- [X] T051 [US2] Create module directory: my-website/docs/module2/ with _category_.json (label: "Module 2: Digital Twin Simulation", position: 2)
 
 ### Module 2 Chapters
 
-- [ ] T052 [P] [US2] Write chapter: my-website/docs/module2/overview.md (500 words: Why simulation, Gazebo vs Unity tradeoffs, physics engines, sim-to-real gap introduction)
-- [ ] T053 [P] [US2] Write chapter: my-website/docs/module2/gazebo-setup.md (800 words: Gazebo Garden installation, world files, spawning URDF models, GUI navigation)
-- [ ] T054 [P] [US2] Write chapter: my-website/docs/module2/physics-sim.md (1000 words: Gravity, collision detection, friction, contact forces, ODE vs Bullet solvers)
-- [ ] T055 [P] [US2] Write chapter: my-website/docs/module2/unity-integration.md (900 words: Unity 2022.3 LTS setup, ROS-TCP-Connector, real-time rendering at 60 FPS, human-robot interaction scenarios)
-- [ ] T056 [P] [US2] Write chapter: my-website/docs/module2/sensor-sim.md (700 words: IMU, depth camera (RealSense D435i), lidar, sensor noise parameters, quantifying sim-to-real gap)
-- [ ] T057 [P] [US2] Write chapter: my-website/docs/module2/exercises.md (1100 words: 18 exercises - sensor calibration, physics tuning, Unity scene creation)
+- [X] T052 [P] [US2] Write chapter: my-website/docs/module2/overview.md (500 words: Why simulation, Gazebo vs Unity tradeoffs, physics engines, sim-to-real gap introduction)
+- [X] T053 [P] [US2] Write chapter: my-website/docs/module2/gazebo-setup.md (800 words: Gazebo Garden installation, world files, spawning URDF models, GUI navigation)
+- [X] T054 [P] [US2] Write chapter: my-website/docs/module2/physics-sim.md (1000 words: Gravity, collision detection, friction, contact forces, ODE vs Bullet solvers)
+- [X] T055 [P] [US2] Write chapter: my-website/docs/module2/unity-integration.md (900 words: Unity 2022.3 LTS setup, ROS-TCP-Connector, real-time rendering at 60 FPS, human-robot interaction scenarios)
+- [X] T056 [P] [US2] Write chapter: my-website/docs/module2/sensor-sim.md (700 words: IMU, depth camera (RealSense D435i), lidar, sensor noise parameters, quantifying sim-to-real gap)
+- [X] T057 [P] [US2] Write chapter: my-website/docs/module2/exercises.md (1100 words: 18 exercises - sensor calibration, physics tuning, Unity scene creation)
 
 ### Module 2 Code Examples
 
-- [ ] T058 [P] [US2] Create code example: my-website/examples/module2/gazebo-worlds/simple_world.sdf (Gazebo world with obstacles)
-- [ ] T059 [P] [US2] Create code example: my-website/examples/module2/gazebo-worlds/spawn_robot.launch.py (ROS 2 launch file to spawn URDF in Gazebo)
-- [ ] T060 [P] [US2] Create code example: my-website/examples/module2/gazebo-worlds/physics_config.yaml (ODE solver configuration)
-- [ ] T061 [P] [US2] Create code example: my-website/examples/module2/unity-scenes/HumanoidDemoScene.unity (Unity scene with humanoid and environment)
-- [ ] T062 [P] [US2] Create code example: my-website/examples/module2/unity-scenes/RosTcpConnectorSetup.cs (C# script for ROS-TCP-Connector)
-- [ ] T063 [P] [US2] Create code example: my-website/examples/module2/sensor-sim/imu_sim.py (IMU data publisher with drift parameters)
-- [ ] T064 [P] [US2] Create code example: my-website/examples/module2/sensor-sim/depth_camera_sim.py (RealSense D435i simulation with noise)
-- [ ] T065 [US2] Create README: my-website/examples/module2/README.md (setup for Gazebo Garden, Unity 2022.3, sensor plugins)
-- [ ] T066 [US2] Test Tier 1+2 validation: Syntax check + Gazebo headless spawn test
+- [X] T058 [P] [US2] Create code example: my-website/examples/module2/gazebo-worlds/simple_world.sdf (Gazebo world with obstacles)
+- [X] T059 [P] [US2] Create code example: my-website/examples/module2/gazebo-worlds/spawn_robot.launch.py (ROS 2 launch file to spawn URDF in Gazebo)
+- [X] T060 [P] [US2] Create code example: my-website/examples/module2/gazebo-worlds/physics_config.yaml (ODE solver configuration)
+- [X] T061 [P] [US2] Create code example: my-website/examples/module2/unity-scenes/HumanoidDemoScene.unity (Unity scene with humanoid and environment)
+- [X] T062 [P] [US2] Create code example: my-website/examples/module2/unity-scenes/RosTcpConnectorSetup.cs (C# script for ROS-TCP-Connector)
+- [X] T063 [P] [US2] Create code example: my-website/examples/module2/sensor-sim/imu_sim.py (IMU data publisher with drift parameters)
+- [X] T064 [P] [US2] Create code example: my-website/examples/module2/sensor-sim/depth_camera_sim.py (RealSense D435i simulation with noise)
+- [X] T065 [US2] Create README: my-website/examples/module2/README.md (setup for Gazebo Garden, Unity 2022.3, sensor plugins)
+- [X] T066 [US2] Test Tier 1+2 validation: Syntax check + Gazebo headless spawn test
 
 ### Module 2 Diagrams
 
-- [ ] T067 [P] [US2] Create Excalidraw diagram: Lab hardware setup for Gazebo workstation → export to my-website/static/img/module2/gazebo-hardware.svg
-- [ ] T068 [P] [US2] Create Mermaid diagram (inline): Gazebo physics pipeline in physics-sim.md
-- [ ] T069 [P] [US2] Create Excalidraw diagram: Unity scene hierarchy → export to my-website/static/img/module2/unity-hierarchy.svg
-- [ ] T070 [P] [US2] Create Mermaid diagram (inline): ROS-TCP-Connector data flow in unity-integration.md
-- [ ] T071 [P] [US2] Create Mermaid diagram (inline): Sensor simulation architecture in sensor-sim.md
-- [ ] T072 [US2] Optimize SVG diagrams for Module 2
+- [X] T067 [P] [US2] Create Excalidraw diagram: Lab hardware setup for Gazebo workstation → export to my-website/static/img/module2/gazebo-hardware.svg
+- [X] T068 [P] [US2] Create Mermaid diagram (inline): Gazebo physics pipeline in physics-sim.md
+- [X] T069 [P] [US2] Create Excalidraw diagram: Unity scene hierarchy → export to my-website/static/img/module2/unity-hierarchy.svg
+- [X] T070 [P] [US2] Create Mermaid diagram (inline): ROS-TCP-Connector data flow in unity-integration.md
+- [X] T071 [P] [US2] Create Mermaid diagram (inline): Sensor simulation architecture in sensor-sim.md
+- [X] T072 [US2] Optimize SVG diagrams for Module 2
 
 ### Module 2 Validation
 
-- [ ] T073 [US2] Add 12 glossary terms: Gazebo, Unity, SDF, physics engine, IMU, depth camera, lidar, domain randomization, ODE, Bullet, ROS-TCP-Connector, point cloud
-- [ ] T074 [US2] Add citations: Gazebo Garden docs, Unity Robotics Hub, ROS-TCP-Connector GitHub, Tobin 2017 (domain randomization), RealSense docs
-- [ ] T075 [US2] Constitution check Module 2 (6 sections per chapter, exercises, citations)
-- [ ] T076 [US2] Word count check Module 2 (5000-6000 total, max 2000 per page)
-- [ ] T077 [US2] Build test and link check Module 2
+- [X] T073 [US2] Add 12 glossary terms: Gazebo, Unity, SDF, physics engine, IMU, depth camera, lidar, domain randomization, ODE, Bullet, ROS-TCP-Connector, point cloud
+- [X] T074 [US2] Add citations: Gazebo Garden docs, Unity Robotics Hub, ROS-TCP-Connector GitHub, Tobin 2017 (domain randomization), RealSense docs
+- [X] T075 [US2] Constitution check Module 2 (6 sections per chapter, exercises, citations)
+- [X] T076 [US2] Word count check Module 2 (5000-6000 total, max 2000 per page)
+- [X] T077 [US2] Build test and link check Module 2
 
 **Checkpoint**: Module 2 complete. Student can simulate humanoid robots in Gazebo and Unity with realistic physics and sensors.
 
@@ -178,45 +178,45 @@
 
 ### Module 3 Outline and Structure
 
-- [ ] T078 [US3] Create module outline: specs/001-hackathon-guide/contracts/module3-outline.md (6 chapters: Overview, Isaac Sim Setup, Object Detection, Navigation RL, SLAM, Exercises)
-- [ ] T079 [US3] Create module directory: my-website/docs/module3/ with _category_.json (label: "Module 3: AI Perception & Navigation", position: 3)
+- [X] T078 [US3] Create module outline: specs/001-hackathon-guide/contracts/module3-outline.md (6 chapters: Overview, Isaac Sim Setup, Object Detection, Navigation RL, SLAM, Exercises)
+- [X] T079 [US3] Create module directory: my-website/docs/module3/ with _category_.json (label: "Module 3: AI Perception & Navigation", position: 3)
 
 ### Module 3 Chapters
 
-- [ ] T080 [P] [US3] Write chapter: my-website/docs/module3/overview.md (500 words: AI perception vs traditional planning, reinforcement learning motivation, Isaac Sim capabilities)
-- [ ] T081 [P] [US3] Write chapter: my-website/docs/module3/isaac-sim-setup.md (900 words: Isaac Sim 2023.1.1+ installation, OmniGraph, Isaac Gym environments, RTX GPU requirements)
-- [ ] T082 [P] [US3] Write chapter: my-website/docs/module3/perception.md (1000 words: YOLO object detection, Mask R-CNN, ROS 2 perception pipelines, mAP evaluation, 15 FPS target)
-- [ ] T083 [P] [US3] Write chapter: my-website/docs/module3/navigation-rl.md (1100 words: Isaac Gym PPO implementation, state/action spaces, reward function design, 10,000 episode training, hyperparameters)
-- [ ] T084 [P] [US3] Write chapter: my-website/docs/module3/slam.md (800 words: SLAM with lidar/depth camera, 2D occupancy grid, 5cm resolution, cartographer integration)
-- [ ] T085 [P] [US3] Write chapter: my-website/docs/module3/exercises.md (1200 words: 18 exercises - train custom RL policy, fine-tune YOLO, integrate SLAM)
+- [X] T080 [P] [US3] Write chapter: my-website/docs/module3/overview.md (500 words: AI perception vs traditional planning, reinforcement learning motivation, Isaac Sim capabilities)
+- [X] T081 [P] [US3] Write chapter: my-website/docs/module3/isaac-sim-setup.md (900 words: Isaac Sim 2023.1.1+ installation, OmniGraph, Isaac Gym environments, RTX GPU requirements)
+- [X] T082 [P] [US3] Write chapter: my-website/docs/module3/perception.md (1000 words: YOLO object detection, Mask R-CNN, ROS 2 perception pipelines, mAP evaluation, 15 FPS target)
+- [X] T083 [P] [US3] Write chapter: my-website/docs/module3/navigation-rl.md (1100 words: Isaac Gym PPO implementation, state/action spaces, reward function design, 10,000 episode training, hyperparameters)
+- [X] T084 [P] [US3] Write chapter: my-website/docs/module3/slam.md (800 words: SLAM with lidar/depth camera, 2D occupancy grid, 5cm resolution, cartographer integration)
+- [X] T085 [P] [US3] Write chapter: my-website/docs/module3/exercises.md (1200 words: 18 exercises - train custom RL policy, fine-tune YOLO, integrate SLAM)
 
 ### Module 3 Code Examples
 
-- [ ] T086 [P] [US3] Create code example: my-website/examples/module3/isaac-gym/navigation_env.py (Isaac Gym environment for obstacle avoidance)
-- [ ] T087 [P] [US3] Create code example: my-website/examples/module3/isaac-gym/train_ppo.py (PPO training script with hyperparameters)
-- [ ] T088 [P] [US3] Create code example: my-website/examples/module3/perception/yolo_detector.py (YOLO integration with ROS 2, PyTorch 2.0+)
-- [ ] T089 [P] [US3] Create code example: my-website/examples/module3/perception/perception_pipeline.py (ROS 2 node for object detection + localization)
-- [ ] T090 [P] [US3] Create code example: my-website/examples/module3/navigation/deploy_policy.py (Deploy Isaac Gym policy to Gazebo)
-- [ ] T091 [P] [US3] Create code example: my-website/examples/module3/slam/cartographer_config.yaml (SLAM configuration for ROS 2)
-- [ ] T092 [US3] Create README: my-website/examples/module3/README.md (Isaac Sim licensing, RTX GPU setup, pre-trained model weights)
-- [ ] T093 [US3] Test Tier 1+2: Syntax check + headless RL training (1000 episodes smoke test)
+- [X] T086 [P] [US3] Create code example: my-website/examples/module3/isaac-gym/navigation_env.py (Isaac Gym environment for obstacle avoidance)
+- [X] T087 [P] [US3] Create code example: my-website/examples/module3/isaac-gym/train_ppo.py (PPO training script with hyperparameters)
+- [X] T088 [P] [US3] Create code example: my-website/examples/module3/perception/yolo_detector.py (YOLO integration with ROS 2, PyTorch 2.0+)
+- [X] T089 [P] [US3] Create code example: my-website/examples/module3/perception/perception_pipeline.py (ROS 2 node for object detection + localization)
+- [X] T090 [P] [US3] Create code example: my-website/examples/module3/navigation/deploy_policy.py (Deploy Isaac Gym policy to Gazebo)
+- [X] T091 [P] [US3] Create code example: my-website/examples/module3/slam/cartographer_config.yaml (SLAM configuration for ROS 2)
+- [X] T092 [US3] Create README: my-website/examples/module3/README.md (Isaac Sim licensing, RTX GPU setup, pre-trained model weights)
+- [X] T093 [US3] Test Tier 1+2: Syntax check + headless RL training (1000 episodes smoke test)
 
 ### Module 3 Diagrams
 
-- [ ] T094 [P] [US3] Create Mermaid diagram (inline): Isaac Sim architecture in isaac-sim-setup.md
-- [ ] T095 [P] [US3] Create Mermaid diagram (inline): Perception pipeline (camera → YOLO → ROS 2 topic) in perception.md
-- [ ] T096 [P] [US3] Create Mermaid diagram (inline): RL training loop in navigation-rl.md
-- [ ] T097 [P] [US3] Create Mermaid diagram (inline): SLAM data flow in slam.md
-- [ ] T098 [P] [US3] Create Excalidraw diagram: Isaac Gym environment visualization → export to my-website/static/img/module3/isaac-gym-env.svg
-- [ ] T099 [US3] Optimize SVG diagrams Module 3
+- [X] T094 [P] [US3] Create Mermaid diagram (inline): Isaac Sim architecture in isaac-sim-setup.md
+- [X] T095 [P] [US3] Create Mermaid diagram (inline): Perception pipeline (camera → YOLO → ROS 2 topic) in perception.md
+- [X] T096 [P] [US3] Create Mermaid diagram (inline): RL training loop in navigation-rl.md
+- [X] T097 [P] [US3] Create Mermaid diagram (inline): SLAM data flow in slam.md
+- [X] T098 [P] [US3] Create Excalidraw diagram: Isaac Gym environment visualization → export to my-website/static/img/module3/isaac-gym-env.svg
+- [X] T099 [US3] Optimize SVG diagrams Module 3
 
 ### Module 3 Validation
 
-- [ ] T100 [US3] Add 15 glossary terms: Isaac Sim, Isaac Gym, reinforcement learning, PPO, YOLO, Mask R-CNN, mAP, SLAM, cartographer, occupancy grid, reward function, state space, action space, OmniGraph, perception
-- [ ] T101 [US3] Add citations: Isaac Sim docs, Isaac Gym docs, Peng 2018, Muratore 2021, YOLO paper, cartographer docs, PyTorch docs
-- [ ] T102 [US3] Constitution check Module 3
-- [ ] T103 [US3] Word count check Module 3 (5000-6000 total)
-- [ ] T104 [US3] Build test and link check Module 3
+- [X] T100 [US3] Add 15 glossary terms: Isaac Sim, Isaac Gym, reinforcement learning, PPO, YOLO, Mask R-CNN, mAP, SLAM, cartographer, occupancy grid, reward function, state space, action space, OmniGraph, perception
+- [X] T101 [US3] Add citations: Isaac Sim docs, Isaac Gym docs, Peng 2018, Muratore 2021, YOLO paper, cartographer docs, PyTorch docs
+- [X] T102 [US3] Constitution check Module 3
+- [X] T103 [US3] Word count check Module 3 (5000-6000 total)
+- [X] T104 [US3] Build test and link check Module 3
 
 **Checkpoint**: Module 3 complete. Student can train AI navigation policies and deploy to simulation.
 
@@ -230,42 +230,42 @@
 
 ### Module 4 Outline and Structure
 
-- [ ] T105 [US4] Create module outline: specs/001-hackathon-guide/contracts/module4-outline.md (5 chapters: Overview, Speech Recognition, LLM Planning, Action Execution, Exercises)
-- [ ] T106 [US4] Create module directory: my-website/docs/module4/ with _category_.json (label: "Module 4: VLA Integration", position: 4)
+- [X] T105 [US4] Create module outline: specs/001-hackathon-guide/contracts/module4-outline.md (5 chapters: Overview, Speech Recognition, LLM Planning, Action Execution, Exercises)
+- [X] T106 [US4] Create module directory: my-website/docs/module4/ with _category_.json (label: "Module 4: VLA Integration", position: 4)
 
 ### Module 4 Chapters
 
-- [ ] T107 [P] [US4] Write chapter: my-website/docs/module4/overview.md (500 words: VLA motivation, embodied AI, multi-modal control)
-- [ ] T108 [P] [US4] Write chapter: my-website/docs/module4/speech-recognition.md (900 words: Whisper ASR, noise cancellation, 60dB ambient, 92% accuracy target)
-- [ ] T109 [P] [US4] Write chapter: my-website/docs/module4/llm-planning.md (1100 words: GPT-4/Llama intent parsing, action sequence generation, handling ambiguity, safety constraints)
-- [ ] T110 [P] [US4] Write chapter: my-website/docs/module4/action-execution.md (800 words: ROS 2 action servers, bimanual coordination, 50ms timing tolerance, execution monitoring)
-- [ ] T111 [P] [US4] Write chapter: my-website/docs/module4/exercises.md (1200 words: 15 exercises - build custom VLA commands, test edge cases)
+- [X] T107 [P] [US4] Write chapter: my-website/docs/module4/overview.md (500 words: VLA motivation, embodied AI, multi-modal control)
+- [X] T108 [P] [US4] Write chapter: my-website/docs/module4/speech-recognition.md (900 words: Whisper ASR, noise cancellation, 60dB ambient, 92% accuracy target)
+- [X] T109 [P] [US4] Write chapter: my-website/docs/module4/llm-planning.md (1100 words: GPT-4/Llama intent parsing, action sequence generation, handling ambiguity, safety constraints)
+- [X] T110 [P] [US4] Write chapter: my-website/docs/module4/action-execution.md (800 words: ROS 2 action servers, bimanual coordination, 50ms timing tolerance, execution monitoring)
+- [X] T111 [P] [US4] Write chapter: my-website/docs/module4/exercises.md (1200 words: 15 exercises - build custom VLA commands, test edge cases)
 
 ### Module 4 Code Examples
 
-- [ ] T112 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/speech_recognizer.py (Whisper integration, microphone input)
-- [ ] T113 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/intent_parser.py (LLM API call for command parsing)
-- [ ] T114 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/action_planner.py (Action sequence generator)
-- [ ] T115 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/vla_executor.py (ROS 2 action client for execution)
-- [ ] T116 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/full_pipeline.py (End-to-end VLA demo)
-- [ ] T117 [US4] Create README: my-website/examples/module4/README.md (microphone setup, LLM API keys, ROS 2 action server requirements)
-- [ ] T118 [US4] Test Tier 1+2: Syntax check + mock VLA pipeline test (no API calls)
+- [X] T112 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/speech_recognizer.py (Whisper integration, microphone input)
+- [X] T113 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/intent_parser.py (LLM API call for command parsing)
+- [X] T114 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/action_planner.py (Action sequence generator)
+- [X] T115 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/vla_executor.py (ROS 2 action client for execution)
+- [X] T116 [P] [US4] Create code example: my-website/examples/module4/vla-pipeline/full_pipeline.py (End-to-end VLA demo)
+- [X] T117 [US4] Create README: my-website/examples/module4/README.md (microphone setup, LLM API keys, ROS 2 action server requirements)
+- [X] T118 [US4] Test Tier 1+2: Syntax check + mock VLA pipeline test (no API calls)
 
 ### Module 4 Diagrams
 
-- [ ] T119 [P] [US4] Create Mermaid diagram (inline): VLA pipeline architecture in overview.md (speech → LLM → planner → executor)
-- [ ] T120 [P] [US4] Create Mermaid diagram (inline): Speech recognition flow in speech-recognition.md
-- [ ] T121 [P] [US4] Create Mermaid diagram (inline): LLM prompt structure in llm-planning.md
-- [ ] T122 [P] [US4] Create Mermaid diagram (inline): Bimanual coordination timeline in action-execution.md
-- [ ] T123 [US4] Optimize SVG diagrams Module 4
+- [X] T119 [P] [US4] Create Mermaid diagram (inline): VLA pipeline architecture in overview.md (speech → LLM → planner → executor)
+- [X] T120 [P] [US4] Create Mermaid diagram (inline): Speech recognition flow in speech-recognition.md
+- [X] T121 [P] [US4] Create Mermaid diagram (inline): LLM prompt structure in llm-planning.md
+- [X] T122 [P] [US4] Create Mermaid diagram (inline): Bimanual coordination timeline in action-execution.md
+- [X] T123 [US4] Optimize SVG diagrams Module 4
 
 ### Module 4 Validation
 
-- [ ] T124 [US4] Add 10 glossary terms: VLA, ASR, Whisper, LLM, intent parsing, action sequence, bimanual, execution monitoring, embodied AI, multi-modal
-- [ ] T125 [US4] Add citations: Whisper paper, GPT-4 docs, Llama docs, ROS 2 action server docs
-- [ ] T126 [US4] Constitution check Module 4
-- [ ] T127 [US4] Word count check Module 4 (4500-5500 total)
-- [ ] T128 [US4] Build test and link check Module 4
+- [X] T124 [US4] Add 10 glossary terms: VLA, ASR, Whisper, LLM, intent parsing, action sequence, bimanual, execution monitoring, embodied AI, multi-modal
+- [X] T125 [US4] Add citations: Whisper paper, GPT-4 docs, Llama docs, ROS 2 action server docs
+- [X] T126 [US4] Constitution check Module 4
+- [X] T127 [US4] Word count check Module 4 (4500-5500 total)
+- [X] T128 [US4] Build test and link check Module 4
 
 **Checkpoint**: Module 4 complete. Student can build VLA pipeline for natural language robot control.
 
@@ -279,42 +279,42 @@
 
 ### Module 5 Outline and Structure
 
-- [ ] T129 [US5] Create module outline: specs/001-hackathon-guide/contracts/module5-outline.md (5 chapters: Overview, Project Requirements, Sim-to-Real Gap, Edge Deployment, Evaluation Rubric)
-- [ ] T130 [US5] Create module directory: my-website/docs/module5/ with _category_.json (label: "Module 5: Capstone Project", position: 5)
+- [X] T129 [US5] Create module outline: specs/001-hackathon-guide/contracts/module5-outline.md (5 chapters: Overview, Project Requirements, Sim-to-Real Gap, Edge Deployment, Evaluation Rubric)
+- [X] T130 [US5] Create module directory: my-website/docs/module5/ with _category_.json (label: "Module 5: Capstone Project", position: 5)
 
 ### Module 5 Chapters
 
-- [ ] T131 [P] [US5] Write chapter: my-website/docs/module5/overview.md (500 words: Capstone expectations, integrating all 4 modules, portfolio demonstration)
-- [ ] T132 [P] [US5] Write chapter: my-website/docs/module5/project-requirements.md (1000 words: URDF model, Gazebo world, training logs, deployment script, technical report structure)
-- [ ] T133 [P] [US5] Write chapter: my-website/docs/module5/sim-to-real.md (1100 words: Quantifying degradation, sensor noise, dynamics mismatch, calibration, citing 5 papers)
-- [ ] T134 [P] [US5] Write chapter: my-website/docs/module5/deployment.md (1000 words: Jetson Orin setup, TensorRT optimization, memory constraints (6GB), inference latency benchmarks)
-- [ ] T135 [P] [US5] Write chapter: my-website/docs/module5/rubric.md (900 words: Grading criteria - technical completeness, simulation accuracy, deployment success, documentation quality, live demo)
+- [X] T131 [P] [US5] Write chapter: my-website/docs/module5/overview.md (500 words: Capstone expectations, integrating all 4 modules, portfolio demonstration)
+- [X] T132 [P] [US5] Write chapter: my-website/docs/module5/project-requirements.md (1000 words: URDF model, Gazebo world, training logs, deployment script, technical report structure)
+- [X] T133 [P] [US5] Write chapter: my-website/docs/module5/sim-to-real.md (1100 words: Quantifying degradation, sensor noise, dynamics mismatch, calibration, citing 5 papers)
+- [X] T134 [P] [US5] Write chapter: my-website/docs/module5/deployment.md (1000 words: Jetson Orin setup, TensorRT optimization, memory constraints (6GB), inference latency benchmarks)
+- [X] T135 [P] [US5] Write chapter: my-website/docs/module5/rubric.md (900 words: Grading criteria - technical completeness, simulation accuracy, deployment success, documentation quality, live demo)
 
 ### Module 5 Code Examples
 
-- [ ] T136 [P] [US5] Create capstone template: my-website/examples/module5/capstone-template/ (directory structure for student submissions)
-- [ ] T137 [P] [US5] Create code example: my-website/examples/module5/capstone-template/tensorrt_convert.py (Convert PyTorch model to TensorRT)
-- [ ] T138 [P] [US5] Create code example: my-website/examples/module5/capstone-template/jetson_deploy.py (Deploy model to Jetson Orin with memory profiling)
-- [ ] T139 [P] [US5] Create code example: my-website/examples/module5/capstone-template/benchmark_inference.py (Measure inference latency, target < 200ms)
-- [ ] T140 [P] [US5] Create code example: my-website/examples/module5/capstone-template/technical_report_template.md (4000-6000 word structured report)
-- [ ] T141 [US5] Create README: my-website/examples/module5/README.md (Jetson Orin Nano setup, power configuration, RealSense USB 3.0 connection)
-- [ ] T142 [US5] Test Tier 3 (manual): Document Jetson deployment with screenshots
+- [X] T136 [P] [US5] Create capstone template: my-website/examples/module5/capstone-template/ (directory structure for student submissions)
+- [X] T137 [P] [US5] Create code example: my-website/examples/module5/capstone-template/tensorrt_convert.py (Convert PyTorch model to TensorRT)
+- [X] T138 [P] [US5] Create code example: my-website/examples/module5/capstone-template/jetson_deploy.py (Deploy model to Jetson Orin with memory profiling)
+- [X] T139 [P] [US5] Create code example: my-website/examples/module5/capstone-template/benchmark_inference.py (Measure inference latency, target < 200ms)
+- [X] T140 [P] [US5] Create code example: my-website/examples/module5/capstone-template/technical_report_template.md (4000-6000 word structured report)
+- [X] T141 [US5] Create README: my-website/examples/module5/README.md (Jetson Orin Nano setup, power configuration, RealSense USB 3.0 connection)
+- [X] T142 [US5] Test Tier 3 (manual): Document Jetson deployment with screenshots
 
 ### Module 5 Diagrams
 
-- [ ] T143 [P] [US5] Create Excalidraw diagram: Hardware setup (Jetson + RealSense + robot) → export to my-website/static/img/module5/hardware-setup.svg
-- [ ] T144 [P] [US5] Create Mermaid diagram (inline): Capstone project workflow in project-requirements.md
-- [ ] T145 [P] [US5] Create Mermaid diagram (inline): Sim-to-real gap sources in sim-to-real.md
-- [ ] T146 [P] [US5] Create Mermaid diagram (inline): TensorRT optimization pipeline in deployment.md
-- [ ] T147 [US5] Optimize SVG diagrams Module 5
+- [X] T143 [P] [US5] Create Excalidraw diagram: Hardware setup (Jetson + RealSense + robot) → export to my-website/static/img/module5/hardware-setup.svg
+- [X] T144 [P] [US5] Create Mermaid diagram (inline): Capstone project workflow in project-requirements.md
+- [X] T145 [P] [US5] Create Mermaid diagram (inline): Sim-to-real gap sources in sim-to-real.md
+- [X] T146 [P] [US5] Create Mermaid diagram (inline): TensorRT optimization pipeline in deployment.md
+- [X] T147 [US5] Optimize SVG diagrams Module 5
 
 ### Module 5 Validation
 
-- [ ] T148 [US5] Add 8 glossary terms: Jetson Orin, TensorRT, edge AI, inference latency, model quantization, sim-to-real transfer, dynamics mismatch, technical report
-- [ ] T149 [US5] Add citations: Jetson Orin docs, TensorRT docs, Sadeghi 2017, Akkaya 2019, capstone rubric template
-- [ ] T150 [US5] Constitution check Module 5
-- [ ] T151 [US5] Word count check Module 5 (4500-5500 total)
-- [ ] T152 [US5] Build test and link check Module 5
+- [X] T148 [US5] Add 8 glossary terms: Jetson Orin, TensorRT, edge AI, inference latency, model quantization, sim-to-real transfer, dynamics mismatch, technical report
+- [X] T149 [US5] Add citations: Jetson Orin docs, TensorRT docs, Sadeghi 2017, Akkaya 2019, capstone rubric template
+- [X] T150 [US5] Constitution check Module 5
+- [X] T151 [US5] Word count check Module 5 (4500-5500 total)
+- [X] T152 [US5] Build test and link check Module 5
 
 **Checkpoint**: All 5 modules complete. Full hackathon guide ready for students.
 
@@ -324,24 +324,24 @@
 
 **Purpose**: Improvements affecting multiple modules, final quality checks, and deployment readiness.
 
-- [ ] T153 [P] Update homepage: my-website/src/pages/index.js (add module completion progress bars, hardware comparison table via MDX)
-- [ ] T154 [P] Create about page: my-website/src/pages/about.md (course credits, instructors, license)
-- [ ] T155 [P] Create MDX component: my-website/src/components/HardwareSpec.jsx (sortable table comparing Jetson Orin Nano/NX/AGX)
-- [ ] T156 [P] Create MDX component: my-website/src/components/PerformanceMetrics.jsx (FPS/latency charts for benchmarks)
-- [ ] T157 Spell check: Run `cspell` with custom robotics dictionary (add terms: URDF, RealSense, Gazebo, etc.)
-- [ ] T158 Accessibility audit: Run Lighthouse on 10 random pages (target accessibility score ≥ 95)
-- [ ] T159 Performance audit: Run Lighthouse on homepage + 5 module landing pages (target performance ≥ 90, LCP < 2.5s)
-- [ ] T160 SEO optimization: Add Open Graph tags, sitemap.xml, robots.txt to my-website/docusaurus.config.js
-- [ ] T161 Image optimization: Verify all images in static/img/ are < 500KB, run `svgo` on SVGs
-- [ ] T162 APA citation validation: Check all references in docs/references.md with Scribbr APA checker (0 formatting errors)
-- [ ] T163 Create contributing guide: my-website/CONTRIBUTING.md (link to specs/001-hackathon-guide/quickstart.md)
-- [ ] T164 Create LICENSE: my-website/LICENSE (MIT license for open-source educational content)
-- [ ] T165 Create project README: my-website/README.md (project overview, contributor setup, deployment instructions)
-- [ ] T166 Final build test: Run `npm run build` with 0 errors, 0 warnings
-- [ ] T167 Final link check: Run link checker on entire site (0 broken internal/external links)
-- [ ] T168 Deploy to GitHub Pages: Merge feature branch to main, verify GitHub Actions deploys to gh-pages
-- [ ] T169 Post-deployment check: Verify site live at GitHub Pages URL, test navigation across all 5 modules
-- [ ] T170 Tag release: Git tag `v1.0-ros2-humble` for stable release
+- [X] T153 [P] Update homepage: my-website/src/pages/index.js (add module completion progress bars, hardware comparison table via MDX)
+- [X] T154 [P] Create about page: my-website/src/pages/about.md (course credits, instructors, license)
+- [X] T155 [P] Create MDX component: my-website/src/components/HardwareSpec.jsx (sortable table comparing Jetson Orin Nano/NX/AGX)
+- [X] T156 [P] Create MDX component: my-website/src/components/PerformanceMetrics.jsx (FPS/latency charts for benchmarks)
+- [X] T157 Spell check: Run `cspell` with custom robotics dictionary (add terms: URDF, RealSense, Gazebo, etc.)
+- [X] T158 Accessibility audit: Run Lighthouse on 10 random pages (target accessibility score ≥ 95)
+- [X] T159 Performance audit: Run Lighthouse on homepage + 5 module landing pages (target performance ≥ 90, LCP < 2.5s)
+- [X] T160 SEO optimization: Add Open Graph tags, sitemap.xml, robots.txt to my-website/docusaurus.config.js
+- [X] T161 Image optimization: Verify all images in static/img/ are < 500KB, run `svgo` on SVGs
+- [X] T162 APA citation validation: Check all references in docs/references.md with Scribbr APA checker (0 formatting errors)
+- [X] T163 Create contributing guide: my-website/CONTRIBUTING.md (link to specs/001-hackathon-guide/quickstart.md)
+- [X] T164 Create LICENSE: my-website/LICENSE (MIT license for open-source educational content)
+- [X] T165 Create project README: my-website/README.md (project overview, contributor setup, deployment instructions)
+- [X] T166 Final build test: Run `npm run build` with 0 errors, 0 warnings
+- [X] T167 Final link check: Run link checker on entire site (0 broken internal/external links)
+- [X] T168 Deploy to GitHub Pages: Merge feature branch to main, verify GitHub Actions deploys to gh-pages
+- [X] T169 Post-deployment check: Verify site live at GitHub Pages URL, test navigation across all 5 modules
+- [X] T170 Tag release: Git tag `v1.0-ros2-humble` for stable release
 
 ---
 
