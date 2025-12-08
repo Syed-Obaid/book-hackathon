@@ -71,17 +71,17 @@
 
 ### Module 1 Outline and Structure
 
-- [ ] T021 [US1] Create module outline: specs/001-hackathon-guide/contracts/module1-outline.md (6 chapters: Overview, Installation, URDF Basics, Nodes/Topics, Services/Actions, Exercises)
-- [ ] T022 [US1] Create module directory: my-website/docs/module1/ with _category_.json (label: "Module 1: ROS 2 Foundation", position: 1)
+- [X] T021 [US1] Create module outline: specs/001-hackathon-guide/contracts/module1-outline.md (6 chapters: Overview, Installation, URDF Basics, Nodes/Topics, Services/Actions, Exercises)
+- [X] T022 [US1] Create module directory: my-website/docs/module1/ with _category_.json (label: "Module 1: ROS 2 Foundation", position: 1)
 
 ### Module 1 Chapters (Can write in parallel after T021-T022)
 
-- [ ] T023 [P] [US1] Write chapter: my-website/docs/module1/overview.md (500 words: What is ROS 2, why roboticists use it, key concepts preview, motivation)
-- [ ] T024 [P] [US1] Write chapter: my-website/docs/module1/installation.md (800 words: Ubuntu 22.04 check, ROS 2 Humble apt installation, workspace setup with colcon, troubleshooting)
-- [ ] T025 [P] [US1] Write chapter: my-website/docs/module1/urdf-basics.md (1000 words: URDF XML structure, joint types, link properties, coordinate frames, 3-DOF arm example, common pitfalls)
-- [ ] T026 [P] [US1] Write chapter: my-website/docs/module1/nodes-topics.md (900 words: Publisher-subscriber pattern, writing Python nodes, topic communication, ROS 2 launch files)
-- [ ] T027 [P] [US1] Write chapter: my-website/docs/module1/services-actions.md (700 words: Request-reply patterns, service definitions, action servers, when to use each)
-- [ ] T028 [P] [US1] Write chapter: my-website/docs/module1/exercises.md (1100 words: 18 exercises total - 3 per chapter, graded project rubric)
+- [X] T023 [P] [US1] Write chapter: my-website/docs/module1/overview.md (500 words: What is ROS 2, why roboticists use it, key concepts preview, motivation)
+- [X] T024 [P] [US1] Write chapter: my-website/docs/module1/installation.md (800 words: Ubuntu 22.04 check, ROS 2 Humble apt installation, workspace setup with colcon, troubleshooting)
+- [X] T025 [P] [US1] Write chapter: my-website/docs/module1/urdf-basics.md (1000 words: URDF XML structure, joint types, link properties, coordinate frames, 3-DOF arm example, common pitfalls)
+- [X] T026 [P] [US1] Write chapter: my-website/docs/module1/nodes-topics.md (900 words: Publisher-subscriber pattern, writing Python nodes, topic communication, ROS 2 launch files)
+- [X] T027 [P] [US1] Write chapter: my-website/docs/module1/services-actions.md (700 words: Request-reply patterns, service definitions, action servers, when to use each)
+- [X] T028 [P] [US1] Write chapter: my-website/docs/module1/exercises.md (1100 words: 18 exercises total - 3 per chapter, graded project rubric)
 
 ### Module 1 Code Examples
 
