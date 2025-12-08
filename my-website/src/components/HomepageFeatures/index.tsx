@@ -107,7 +107,7 @@ export default function HomepageFeatures(): ReactNode {
         </div>
       </section>
 
-      <section className={styles.features} style={{backgroundColor: '#313336ff', padding: '2rem 0'}}>
+      <section className={styles.features} style={{backgroundColor: '#49d8ebff', padding: '2rem 0'}}>
         <div className="container">
           <div className="text--center margin-bottom--lg">
             <Heading as="h2">Hardware Requirements</Heading>
