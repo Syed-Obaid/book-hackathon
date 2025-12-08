@@ -1,0 +1,24 @@
+# Python Dependencies for Module 1: ROS 2 Foundation
+# Reference: Chapter 1.4 Nodes and Topics
+#
+# Installation:
+#   pip3 install -r requirements.txt
+#
+# Note: Most ROS 2 packages are installed via apt, not pip.
+# This file lists Python dependencies for the example nodes.
+
+# ROS 2 Python Client Library
+# Version: Compatible with ROS 2 Humble
+rclpy>=3.3.0
+
+# NumPy for numerical computations (optional, for advanced exercises)
+numpy>=1.24.0
+
+# Note: sensor_msgs is part of ROS 2 and installed via:
+#   sudo apt install ros-humble-sensor-msgs
+# It's not available on PyPI, so not listed here.
+
+# For development/testing (optional):
+# pytest>=7.0.0  # Unit testing framework
+# flake8>=6.0.0  # Python linting
+# black>=23.0.0  # Code formatting

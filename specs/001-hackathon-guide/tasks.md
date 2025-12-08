@@ -85,15 +85,15 @@
 
 ### Module 1 Code Examples
 
-- [ ] T029 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/install_ros2.sh (bash script for apt installation, tested on Ubuntu 22.04)
-- [ ] T030 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/create_workspace.sh (workspace initialization script)
-- [ ] T031 [P] [US1] Create code example: my-website/examples/module1/urdf-models/simple_arm.urdf (3-DOF arm with comments explaining joint/link syntax)
-- [ ] T032 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/urdf_publisher.py (Python node publishing joint states, requires rclpy>=3.3.0)
-- [ ] T033 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/joint_controller.py (Subscriber node listening to joint commands)
-- [ ] T034 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/urdf_visualizer.launch.py (ROS 2 launch file for RViz visualization)
-- [ ] T035 [US1] Create README: my-website/examples/module1/ros2-basics/README.md (setup instructions, expected output for all 6 examples)
-- [ ] T036 [US1] Create requirements.txt: my-website/examples/module1/ros2-basics/requirements.txt (rclpy>=3.3.0, numpy>=1.24.0)
-- [ ] T037 [US1] Test Tier 1 validation: Run flake8 on all Module 1 Python files (syntax check)
+- [X] T029 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/install_ros2.sh (bash script for apt installation, tested on Ubuntu 22.04)
+- [X] T030 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/create_workspace.sh (workspace initialization script)
+- [X] T031 [P] [US1] Create code example: my-website/examples/module1/urdf-models/simple_arm.urdf (3-DOF arm with comments explaining joint/link syntax)
+- [X] T032 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/urdf_publisher.py (Python node publishing joint states, requires rclpy>=3.3.0)
+- [X] T033 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/joint_controller.py (Subscriber node listening to joint commands)
+- [X] T034 [P] [US1] Create code example: my-website/examples/module1/ros2-basics/urdf_visualizer.launch.py (ROS 2 launch file for RViz visualization)
+- [X] T035 [US1] Create README: my-website/examples/module1/ros2-basics/README.md (setup instructions, expected output for all 6 examples)
+- [X] T036 [US1] Create requirements.txt: my-website/examples/module1/ros2-basics/requirements.txt (rclpy>=3.3.0, numpy>=1.24.0)
+- [X] T037 [US1] Test Tier 1 validation: Run flake8 on all Module 1 Python files (syntax check)
 
 ### Module 1 Diagrams
 
