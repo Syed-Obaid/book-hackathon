@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-org.github.io',
+  url: 'https://syed-obaid.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/physical-ai-robotics-guide/',
+  baseUrl: '/book-hackathon/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-org', // GitHub org/user name
-  projectName: 'physical-ai-robotics-guide', // Repo name
+  organizationName: 'Syed-Obaid', // GitHub org/user name
+  projectName: 'book-hackathon', // Repo name
 
   onBrokenLinks: 'throw',
 
@@ -95,7 +95,7 @@ const config: Config = {
           label: 'Guide',
         },
         {
-          href: 'https://github.com/your-org/physical-ai-robotics-guide',
+          href: 'https://github.com/Syed-Obaid/book-hackathon',
           label: 'GitHub',
           position: 'right',
         },
@@ -139,7 +139,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-org/physical-ai-robotics-guide',
+              href: 'https://github.com/Syed-Obaid/book-hackathon',
             },
           ],
         },
