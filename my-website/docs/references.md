@@ -22,6 +22,16 @@ Akkaya, I., Andrychowicz, M., Chociej, M., Litwin, M., McGrew, B., Petron, A., P
 
 ---
 
+## C
+
+### colcon Documentation
+
+colcon Contributors. (2023). *colcon - Collective construction*. Retrieved December 8, 2025, from https://colcon.readthedocs.io/
+
+**Purpose**: Official documentation for colcon build tool, covering workspace setup, package dependencies, build options, and cross-platform support for ROS 2.
+
+---
+
 ## G
 
 ### Gazebo Documentation
@@ -98,6 +108,18 @@ Robot Operating System 2. (2023). *ROS 2 Humble documentation*. Retrieved Decemb
 
 **Purpose**: Official ROS 2 Humble Hawksbill (LTS until May 2027) documentation covering installation, tutorials, API reference.
 
+### rclpy Documentation
+
+Open Robotics. (2023). *rclpy - ROS 2 Python client library API*. Retrieved December 8, 2025, from https://docs.ros2.org/humble/api/rclpy/
+
+**Purpose**: API reference for rclpy (ROS Client Library for Python), covering node creation, publishers, subscribers, services, actions, parameters, and QoS policies.
+
+### RViz2 Documentation
+
+Open Robotics. (2023). *RViz2 user guide*. Retrieved December 8, 2025, from https://github.com/ros2/rviz/blob/ros2/README.md
+
+**Purpose**: Official RViz2 documentation for 3D robot visualization, display types (RobotModel, TF, PointCloud2), configuration files, and plugin development.
+
 ---
 
 ## S
@@ -139,6 +161,12 @@ Unity Technologies. (2023). *Unity Robotics Hub*. GitHub. Retrieved December 7, 
 Unitree Robotics. (2023). *Unitree Go2 quadruped robot*. Retrieved December 7, 2025, from https://www.unitree.com/go2/
 
 **Specifications**: Optional physical validation platform for sim-to-real transfer (alternative to full humanoid hardware).
+
+### URDF Documentation
+
+Open Robotics. (2023). *URDF - Unified Robot Description Format*. Retrieved December 8, 2025, from http://wiki.ros.org/urdf
+
+**Purpose**: Official URDF XML specification for robot modeling, covering link elements (visual, collision, inertial), joint types (revolute, prismatic, continuous, fixed), and XACRO macros for modular robot descriptions.
 
 ---
 
