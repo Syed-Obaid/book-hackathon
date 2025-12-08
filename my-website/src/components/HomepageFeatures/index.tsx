@@ -20,7 +20,8 @@ const ModuleList: FeatureItem[] = [
         write publisher/subscriber nodes for humanoid control.
       </>
     ),
-    link: '/docs/intro',
+    // link: '/docs/category/module-1-ros-2-foundation',
+    link: '/physical-ai-robotics-guide/docs/category/module-1-ros-2-foundation',
   },
   {
     title: 'Module 2: Digital Twin Simulation',
@@ -31,7 +32,7 @@ const ModuleList: FeatureItem[] = [
         (IMU, depth camera), and understand the sim-to-real gap.
       </>
     ),
-    link: '/docs/intro',
+    link: '/physical-ai-robotics-guide/docs/category/module-2-digital-twin',
   },
   {
     title: 'Module 3: AI Perception & Navigation',
@@ -42,7 +43,7 @@ const ModuleList: FeatureItem[] = [
         object detection (YOLO), and implement SLAM for environment mapping.
       </>
     ),
-    link: '/docs/intro',
+    link: '/physical-ai-robotics-guide/docs/category/module-3-motion-planning',
   },
   {
     title: 'Module 4: VLA Integration',
@@ -53,7 +54,7 @@ const ModuleList: FeatureItem[] = [
         parsing, and multi-modal control for natural language robot commands.
       </>
     ),
-    link: '/docs/intro',
+    link: '/physical-ai-robotics-guide/docs/category/module-4-embodied-ai',
   },
   {
     title: 'Module 5: Capstone Project',
@@ -64,9 +65,12 @@ const ModuleList: FeatureItem[] = [
         Jetson Orin. Demonstrate end-to-end Physical AI mastery.
       </>
     ),
-    link: '/docs/intro',
+    link: '/physical-ai-robotics-guide/docs/category/module-5-integration--capstone',
   },
 ];
+
+
+
 
 function Module({title, Svg, description, link}: FeatureItem) {
   return (
