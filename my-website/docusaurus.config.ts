@@ -18,13 +18,14 @@ const config: Config = {
   url: 'https://syed-obaid.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/book-hackathon/',
+  baseUrl: '/physical-ai-robotics-guide/',
 
   // GitHub pages deployment config.
   organizationName: 'Syed-Obaid', // GitHub org/user name
-  projectName: 'book-hackathon', // Repo name
+  projectName: 'physical-ai-robotics-guide', // Repo name
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   // Markdown config for Mermaid support (T003)
   markdown: {
@@ -79,7 +80,23 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
       respectPrefersColorScheme: true,
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
+    },
+    announcementBar: {
+      id: 'welcome',
+      content:
+        '⚡ Welcome to Physical AI & Humanoid Robotics! Start your journey into embodied AI systems →',
+      backgroundColor: '#00BCD4',
+      textColor: '#ffffff',
+      isCloseable: true,
     },
     navbar: {
       title: 'Physical AI & Humanoid Robotics',
@@ -109,11 +126,11 @@ const config: Config = {
           items: [
             {
               label: 'Getting Started',
-              to: '/docs/',
+              to: '/physical-ai-robotics-guide/docs/',
             },
             {
               label: 'Glossary',
-              to: '/docs/glossary',
+              to: '/physical-ai-robotics-guide/docs/glossary',
             },
           ],
         },
@@ -147,9 +164,20 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Guide. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
-      additionalLanguages: ['python', 'bash', 'yaml'], // Support for code examples
+      theme: prismThemes.vsLight,
+      darkTheme: prismThemes.vsDark,
+      additionalLanguages: ['python', 'bash', 'yaml', 'json', 'cpp', 'cmake', 'docker'], // Support for robotics code examples
+      magicComments: [
+        {
+          className: 'theme-code-block-highlighted-line',
+          line: 'highlight-next-line',
+          block: {start: 'highlight-start', end: 'highlight-end'},
+        },
+      ],
+    },
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 4,
     },
   } satisfies Preset.ThemeConfig,
 };

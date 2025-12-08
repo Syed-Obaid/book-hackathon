@@ -20,7 +20,6 @@ const ModuleList: FeatureItem[] = [
         write publisher/subscriber nodes for humanoid control.
       </>
     ),
-    // link: '/docs/category/module-1-ros-2-foundation',
     link: '/physical-ai-robotics-guide/docs/category/module-1-ros-2-foundation',
   },
   {
@@ -108,7 +107,7 @@ export default function HomepageFeatures(): ReactNode {
         </div>
       </section>
 
-      <section className={styles.features} style={{backgroundColor: '#f5f5f5', padding: '2rem 0'}}>
+      <section className={styles.features} style={{backgroundColor: '#313336ff', padding: '2rem 0'}}>
         <div className="container">
           <div className="text--center margin-bottom--lg">
             <Heading as="h2">Hardware Requirements</Heading>
