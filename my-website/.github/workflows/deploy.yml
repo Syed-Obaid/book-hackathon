@@ -18,34 +18,39 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # 2. Setup Node.js with proper npm cache
+      # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'
-          cache-dependency-path: my-website/package-lock.json
 
-      # 3. Install dependencies
+      # 3. Cache npm modules manually
+      - name: Cache npm modules
+        uses: actions/cache@v3
+        with:
+          path: my-website/node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('my-website/package-lock.json') }}
+
+      # 4. Install dependencies
       - name: Install dependencies
         working-directory: my-website
         run: npm ci
 
-      # 4. Build the Docusaurus site
+      # 5. Build the Docusaurus site
       - name: Build website
         working-directory: my-website
         run: npm run build
 
-      # 5. Configure GitHub Pages
+      # 6. Configure GitHub Pages
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
 
-      # 6. Upload the build artifact
+      # 7. Upload the build artifact
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: my-website/build
 
-      # 7. Deploy to GitHub Pages
+      # 8. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
