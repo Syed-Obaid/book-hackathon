@@ -18,18 +18,20 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # 2. Setup Node.js
+      # 2. Setup Node.js WITHOUT automatic cache
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      # 3. Cache npm modules manually
+      # 3. Manual cache for node_modules
       - name: Cache npm modules
         uses: actions/cache@v3
         with:
           path: my-website/node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('my-website/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
       # 4. Install dependencies
       - name: Install dependencies
