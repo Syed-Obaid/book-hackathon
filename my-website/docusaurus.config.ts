@@ -18,11 +18,12 @@ const config: Config = {
   url: 'https://syed-obaid.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  // baseUrl: '/',
+  baseUrl: '/book-hackathon/',
 
   // GitHub pages deployment config.
   organizationName: 'Syed-Obaid', // GitHub org/user name
-  projectName: 'physical-ai-robotics-guide', // Repo name
+  projectName: 'book-hackathon', // Repo name
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
