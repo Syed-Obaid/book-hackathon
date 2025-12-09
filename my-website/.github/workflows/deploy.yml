@@ -14,30 +14,38 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
+      # 1. Checkout the repo
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      # 2. Setup Node.js with proper npm cache
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: 'npm'
+          cache-dependency-path: my-website/package-lock.json
 
+      # 3. Install dependencies
       - name: Install dependencies
         working-directory: my-website
         run: npm ci
 
+      # 4. Build the Docusaurus site
       - name: Build website
         working-directory: my-website
         run: npm run build
 
+      # 5. Configure GitHub Pages
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
 
+      # 6. Upload the build artifact
       - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: my-website/build
 
+      # 7. Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v1
